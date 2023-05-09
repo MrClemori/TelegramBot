@@ -1,0 +1,23 @@
+{
+  "name": "tgbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "viber": "nodemon viberbot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.1.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20",
+    "novaposhta": "^1.1.1",
+    "nvm": "^0.0.4",
+    "viber-bot": "^1.0.18",
+    "yarn": "^1.22.19"
+  }
+}
